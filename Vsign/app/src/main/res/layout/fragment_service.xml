@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2">
+        <TextView
+            style="@style/txtBase"
+            android:text="Chọn gói cước đăng ký"
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:layout_weight="1" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <LinearLayout
+            android:gravity="center|left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:layout_weight="1"
+            android:weightSum="7">
+            <TextView
+                style="@style/txtBase"
+                android:layout_weight="3"
+                android:text="GÓI NGÀY"/>
+            <TextView
+                style="@style/txtBase"
+                android:paddingRight="10dp"
+                android:gravity="right"
+                android:layout_weight="3"
+                android:text="500 đ"/>
+            <CheckBox
+                android:id="@+id/checkbox_day"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:layout_weight="1"
+            android:weightSum="7">
+            <TextView
+                style="@style/txtBase"
+                android:layout_weight="3"
+                android:text="GÓI TUẦN"/>
+            <TextView
+                style="@style/txtBase"
+                android:paddingRight="10dp"
+                android:gravity="right"
+                android:layout_weight="3"
+                android:text="3.000 đ"/>
+            <CheckBox
+                android:id="@+id/checkbox_week"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:layout_weight="1"
+            android:weightSum="7">
+            <TextView
+                style="@style/txtBase"
+                android:layout_weight="3"
+                android:text="GÓI THÁNG"/>
+            <TextView
+                style="@style/txtBase"
+                android:paddingRight="10dp"
+                android:gravity="right"
+                android:layout_weight="3"
+                android:text="9.000 đ"/>
+            <CheckBox
+                android:id="@+id/checkbox_month"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="3">
+        <Button
+            android:id="@+id/btn_signUp"
+            style="@style/button"
+            android:background="@drawable/btn_orange2"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Đăng ký"
+            />
+        <CheckBox
+            android:background="@drawable/check_oval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/navigation_home"
+        android:title=""
+        android:icon="@mipmap/ic_home"/>
+    <item android:id="@+id/navigation_present"
+        android:title=""
+        android:icon="@mipmap/ic_present"/>
+    <item android:id="@+id/navigation_vsign"
+        android:title=""
+        android:icon="@mipmap/ic_menu_vsign"/>
+    <item android:id="@+id/navigation_wallet"
+        android:title=""
+        android:icon="@mipmap/ic_wallet"/>
+    <item android:id="@+id/navigation_more"
+        android:title=""
+        android:icon="@mipmap/ic_more"/>
+
+
+</menu>
